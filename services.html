@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Offered</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .navbar .navbar-brand {
+            margin-right: 0;
+            padding-right: 0;
+        }
+        
+        .navbar .navbar-brand + .navbar-brand {
+            margin-left: 10px;
+        }
+
+        .navbar .navbar-brand.lang {
+            color: #6c757d; 
+            font-size: 1rem; 
+        }
+
+        .service-description {
+            position: absolute;
+            z-index: 999;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: none;
+        }
+
+        .background-container {
+    background-image: url('https://klinikpelitasehat.com/uploads/produk/Doctor-standing-up-014.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-position: center bottom;
+    height: 400px;
+    display: flex;
+    align-items: center; 
+    padding-left: 40px; 
+}
+
+.text-overlay {
+    color: white;
+}
+
+.footer-section {
+      background-color: #00008B; 
+      color:white;
+    }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Medcare</a>
+        <a class="navbar-brand lang" href="rus2.html">Rus</a>
+        <a class="navbar-brand lang" href="services.html">Eng</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="background-container">
+        <h1 class="text-overlay">Services Offered</h1>
+    </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://static.tildacdn.com/tild6163-3733-4435-b032-363735616439/sa.jpg" class="card-img-top" alt="Service 1">
+              <div class="card-body">
+                <h5 class="card-title">Comprehensive Dental Care</h5>
+                <p class="card-text">Price: $50</p>
+                <a href="contact.html" class="btn btn-primary" onmouseover="showDescription(this)">Book Now</a>
+                <div class="service-description">
+                  <p>Optimize your smile with our full range of services, including cleaning, filling, and professional whitening.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://yoga-in-greece.ru/wp-content/uploads/6/8/c/68c81f7dad939f48c007a0994fea3ce2.jpeg" class="card-img-top" alt="Service 2">
+              <div class="card-body">
+                <h5 class="card-title">Spinal Correction and Massage</h5>
+                <p class="card-text">Price: $75</p>
+                <a href="contact.html" class="btn btn-primary" onmouseover="showDescription(this)">Book Now</a>
+                <div class="service-description">
+                  <p>Relieve your back from tension and stress with our range of services, including spinal correction and relaxing massage.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://static.tildacdn.com/tild3337-6265-4962-a639-656137396165/wyDhDBzQ25Y.jpeg" class="card-img-top" alt="Service 3">
+              <div class="card-body">
+                <h5 class="card-title">Vision Diagnostics and Glasses Fitting</h5>
+                <p class="card-text">Price: $100</p>
+                <a href="contact.html" class="btn btn-primary" onmouseover="showDescription(this)">Book Now</a>
+                <div class="service-description">
+                  <p>Ensure your eyes receive the best care with our vision diagnostic services and personalized glasses fitting.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://static.tildacdn.com/tild6163-3733-4435-b032-363735616439/sa.jpg" class="card-img-top" alt="Service 1">
+              <div class="card-body">
+                <h5 class="card-title">Preventive Health Check-up</h5>
+                <p class="card-text">Price: $50</p>
+                <a href="contact.html" class="btn btn-primary" onmouseover="showDescription(this)">Book Now</a>
+                <div class="service-description">
+                  <p>Stay ahead of potential health issues with our comprehensive preventive health check-up, including screenings and consultations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://static.tildacdn.com/tild6163-3733-4435-b032-363735616439/sa.jpg" class="card-img-top" alt="Service 1">
+              <div class="card-body">
+                <h5 class="card-title">Holistic Wellness Therapy</h5>
+                <p class="card-text">Price: $50</p>
+                <a href="contact.html" class="btn btn-primary" onmouseover="showDescription(this)">Book Now</a>
+                <div class="service-description">
+                  <p>Achieve balance and well-being with our holistic therapy services, combining traditional and alternative approaches.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://static.tildacdn.com/tild6163-3733-4435-b032-363735616439/sa.jpg" class="card-img-top" alt="Service 1">
+              <div class="card-body">
+                <h5 class="card-title">Skin Care Consultation and Treatment</h5>
+                <p class="card-text">Price: $50</p>
+                <a href="contact.html" class="btn btn-primary" onmouseover="showDescription(this)">Book Now</a>
+                <div class="service-description">
+                  <p>Revitalize your skin with our consultation and personalized treatment plans tailored to your specific needs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+<section class="contact-section py-5" style="background-color: #343a40; color: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Contact Us</h2>
+          <p>How to find us</p>
+          <ul>
+            <li>Email: Medcare@gmail.com</li>
+            <li>Phone: +77081930126</li>
+            <li>Address: Mangilik El 45, Astana, Kazakhstan</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <footer class="footer-section text-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Medcare</p>
+    </div>
+  </footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+  function showDescription(btn) {
+    var description = $(btn).siblings('.service-description').html();
+    $('.service-description').hide(); 
+    $(btn).siblings('.service-description').html(description).show();
+  }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medcare - Часто задаваемые вопросы</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .navbar .navbar-brand {
+            margin-right: 0;
+            padding-right: 0;
+        }
+        
+        .navbar .navbar-brand + .navbar-brand {
+            margin-left: 10px;
+        }
+
+        .navbar .navbar-brand.lang {
+            color: #6c757d; 
+            font-size: 1rem; 
+        }
+
+        .card {
+            border-radius: 0; 
+        }
+
+        .footer-section {
+      background-color: #00008B; 
+      color:white;
+    }
+
+    .image-container {
+            position: relative;
+            text-align: right;
+            background-image: url('https://1.bp.blogspot.com/-DWEBO9z5LIs/YZqHkfWGEgI/AAAAAAAA9fE/6JLod6u-cuQjAvaEY_GeWhI-cxg5hD8-QCLcBGAsYHQ/s1920/doctor-g8d6f2a171_1920.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px; 
+            color: white;
+        }
+
+        .image-text {
+            position: absolute;
+            top: 50%;
+            right: 0%;
+            transform: translate(-50%, -50%);
+        }
+
+        .image-text h2,
+        .image-text p {
+            font-size: 30px;
+            color: #00008B; 
+        }
+
+        .image-button {
+            font-size: 24px; 
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Медцентр</a>
+    <a class="navbar-brand lang" href="rus3.html">Рус</a>
+    <a class="navbar-brand lang" href="contact.html">Анг</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+   
+</button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="rus.html">Главная</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rus1.html">О нас</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rus2.html">Услуги</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rus4.html">Вопрос/Ответ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="rus3.html">Контакты</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Часто задаваемые вопросы</h1>
+<div id="accordion">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Вопрос 1: Какие медицинские услуги вы предоставляете?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        Мы предоставляем широкий спектр медицинских услуг, включая консультации врачей, диагностику, лечение различных заболеваний, хирургические вмешательства и многое другое. Более подробную информацию о наших услугах вы можете узнать на странице "Услуги".
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Вопрос 2: Как я могу записаться на прием к врачу?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Чтобы записаться на прием, вам необходимо связаться с нашим медицинским центром по телефону или заполнить онлайн-форму записи на прием на нашем сайте. Наши администраторы свяжутся с вами для подтверждения деталей и назначения времени приема.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Вопрос 3: Принимаете ли вы страховые полисы?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Да, мы принимаем различные страховые полисы. Однако рекомендуется заранее уточнить у вашего страхового провайдера наличие покрытия для конкретных услуг, которые вам требуются.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Вопрос 4: Каковы ваши часы работы?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        Наш медицинский центр открыт с понедельника по пятницу с 8:00 до 18:00, а по субботам с 9:00 до 14:00. Мы не работаем по воскресеньям и праздничным дням.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Вопрос 5: Предоставляете ли вы услуги скорой помощи?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        Да, мы предоставляем услуги скорой медицинской помощи круглосуточно. Вы можете связаться с нашей службой скорой помощи для немедленной помощи в случае медицинских чрезвычайных ситуаций.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Вопрос 6: Как я могу заказать повторное выписывание рецепта?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                        Вы можете заказать повторное выписывание рецепта, связавшись с нашим медицинским центром по телефону или используя нашу онлайн-форму запроса на повторное выписывание рецепта на сайте. Пожалуйста, укажите данные вашего рецепта, и наши сотрудники обработают ваш запрос оперативно.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="image-container">
+    <div class="image-text">
+        <h2>Совместно делаем здравоохранение лучше</h2>
+        <p>Сделайте шаг к хорошему самочувствию вместе с нами!</p>
+        <a href="rus3.html" class="btn btn-primary image-button">Записаться на прием</a>
+    </div>
+</div>
+
+<section class="contact-section py-5" style="background-color: #343a40; color: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Контакты</h2>
+          <p>Как нас найти</p>
+          <ul>
+            <li>Email: Medcare@gmail.com</li>
+            <li>Телефон: +77081930126</li>
+            <li>Адрес: Мангилик Ел 45, Астана, Казахстан</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+    </div>
+  </section>  
+
+<footer class="footer-section text-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Медцентр</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

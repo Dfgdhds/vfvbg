@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медцентр</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-container {
+            position: relative;
+            text-align: left;
+            background-image: url('https://www.gov.kz/uploads/2023/3/10/9d8293cf45ae2c383efbae887dadcd02_original.841101.png');
+            background-size: cover;
+            background-position: center;
+            height: 500px; 
+            color: white;
+        }
+
+        .image-text {
+            position: absolute;
+            top: 50%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+
+        .image-text h2,
+        .image-text p {
+            font-size: 30px;
+            color: #00008B; 
+        }
+
+        .image-button {
+            font-size: 24px; 
+            padding: 10px 20px;
+        }
+
+        .navbar .navbar-brand {
+            margin-right: 0;
+            padding-right: 0;
+        }
+        
+        .navbar .navbar-brand + .navbar-brand {
+            margin-left: 10px;
+        }
+
+        .navbar .navbar-brand.lang {
+            color: #6c757d; 
+            font-size: 1rem; 
+        }
+
+        .footer-section {
+      background-color: #00008B; 
+      color:white;
+    }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Медцентр</a>
+        <a class="navbar-brand lang" href="rus.html">Рус</a>
+        <a class="navbar-brand lang" href="index.html">Англ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="rus.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rus1.html">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rus2.html">Услуги</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rus4.html">Вопрос/Ответ</a>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rus3.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+<div class="image-container">
+    <div class="image-text">
+        <h2>Сделаем заботу о здоровье еще лучше вместе</h2>
+        <p>Сделайте шаг к здоровью вместе с нами!</p>
+        <a href="rus3.html" class="btn btn-primary image-button">Записаться на прием</a>
+    </div>
+</div>
+
+<div class="container mt-5">
+  <div class="jumbotron">
+    <h1 class="display-4">Добро пожаловать на наш медицинский сайт</h1>
+    <p class="lead">Мы предоставляем информацию о различных лекарствах и темах, связанных с здоровьем.</p>
+    <hr class="my-4">
+    <p>Не стесняйтесь изучать наш сайт, чтобы узнать больше о лекарствах, лечении и советах по здоровью.</p>
+    <a class="btn btn-primary btn-lg" href="about.html" role="button">Узнать больше</a>
+  </div>
+</div>
+
+<section id="blog" class="container mt-5">
+    <h2 class="text-center mb-4">Наш блог</h2>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <img src="https://thebirmgroup.com/wp-content/uploads/2018/07/ThinkstockPhotos-510351863.jpg" class="card-img-top" alt="News 1">
+          <div class="card-body">
+            <h5 class="card-title">Построен новый больничный корпус</h5>
+            <p class="card-text">Новый больничный корпус предлагает современные услуги для улучшения медицинской помощи и удовлетворения растущих потребностей здравоохранения сообщества.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <img src="https://koit.com/wp-content/uploads/sites/7/2019/07/GettyImages-1016901558.jpg" class="card-img-top" alt="News 2">
+          <div class="card-body">
+            <h5 class="card-title">Расширение детского отделения</h5>
+            <p class="card-text">Мы рады объявить о расширении нашего детского отделения, оборудованного передовыми устройствами для оказания комплексной помощи детям любого возраста.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <img src="https://1.bp.blogspot.com/-q-3RwST_CAM/WOfS3k_Yo_I/AAAAAAAACuk/fnlXZ67r_J0MOqkcDjXosYhyq1jxSQYnwCLcB/s1600/telemedicina3.jpg" class="card-img-top" alt="News 3">
+          <div class="card-body">
+            <h5 class="card-title">Внедрение услуг телемедицины</h5>
+            <p class="card-text">Представляем наши новые телемедицинские услуги, позволяющие пациентам консультироваться с медицинскими специалистами удаленно, обеспечивая доступ к медицинской помощи из дома.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 mb-4">
+        <div class="card">
+          <img src="https://outdoormedicalsolutions.co.uk/wp-content/uploads/2015/02/Fotolia_56556060_Subscription_Monthly_M.jpg" class="card-img-top" alt="News 4">
+          <div class="card-body">
+            <h5 class="card-title">Запуск программы образования в области здоровья</h5>
+            <p class="card-text">Мы рады представить нашу программу образования в области здоровья, направленную на повышение осведомленности людей о необходимых знаниях и навыках для поддержания оптимального благополучия.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+  <section class="contact-section py-5" style="background-color: #343a40; color: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Свяжитесь с нами</h2>
+          <p>Как нас найти</p>
+          <ul>
+            <li>Email: Medcare@gmail.com</li>
+            <li>Телефон: +77081930126</li>
+            <li>Адрес: Мангилик Ел 45, Нур-Султан, Казахстан</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+    </div>
+  </section>  
+
+  <footer class="footer-section text-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Медцентр</p>
+    </div>
+  </footer>
+  
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+

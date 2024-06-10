@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medcare - Frequently Asked Questions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .navbar .navbar-brand {
+            margin-right: 0;
+            padding-right: 0;
+        }
+        
+        .navbar .navbar-brand + .navbar-brand {
+            margin-left: 10px;
+        }
+
+        .navbar .navbar-brand.lang {
+            color: #6c757d; 
+            font-size: 1rem; 
+        }
+
+        .card {
+            border-radius: 0; 
+        }
+
+        .footer-section {
+      background-color: #00008B; 
+      color:white;
+    }
+
+    .image-container {
+            position: relative;
+            text-align: right;
+            background-image: url('https://1.bp.blogspot.com/-DWEBO9z5LIs/YZqHkfWGEgI/AAAAAAAA9fE/6JLod6u-cuQjAvaEY_GeWhI-cxg5hD8-QCLcBGAsYHQ/s1920/doctor-g8d6f2a171_1920.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px; 
+            color: white;
+        }
+
+        .image-text {
+            position: absolute;
+            top: 50%;
+            right: 0%;
+            transform: translate(-50%, -50%);
+        }
+
+        .image-text h2,
+        .image-text p {
+            font-size: 30px;
+            color: #00008B; 
+        }
+
+        .image-button {
+            font-size: 24px; 
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Medcare</a>
+    <a class="navbar-brand lang" href="rus4.html">Rus</a>
+    <a class="navbar-brand lang" href="faq.html">Eng</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+   
+</button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Frequently Asked Questions</h1>
+<div id="accordion">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Question 1: What medical services do you provide?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        We provide a wide range of medical services, including doctor consultations, diagnostics, treatment of various diseases, surgical interventions, and more. You can learn more about our services on the "Services" page.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Question 2: How can I schedule an appointment with a doctor?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        To schedule an appointment, you need to contact our medical center by phone or fill out the online appointment form on our website. Our administrators will contact you to confirm the details and schedule an appointment time.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Question 3: Do you accept insurance plans?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Yes, we accept various insurance plans. However, it is advisable to check with your insurance provider beforehand to ensure coverage for the specific services you require.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Question 4: What are your working hours?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                        Our medical center is open Monday through Friday from 8:00 AM to 6:00 PM, and on Saturdays from 9:00 AM to 2:00 PM. We are closed on Sundays and public holidays.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Question 5: Do you offer emergency services?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        Yes, we provide emergency medical services round the clock. You can contact our emergency hotline for immediate assistance in case of medical emergencies.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Question 6: How can I request a prescription refill?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                    <div class="card-body">
+                        You can request a prescription refill by contacting our medical center via phone or by using our online prescription refill request form on the website. Please provide your prescription details, and our staff will process your request promptly.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="image-container">
+    <div class="image-text">
+        <h2>Making Health Care Better Together</h2>
+        <p>Take a step towards good well-being with us!</p>
+        <a href="contact.html" class="btn btn-primary image-button">Make an Appointment</a>
+    </div>
+</div>
+
+<section class="contact-section py-5" style="background-color: #343a40; color: white;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Contact Us</h2>
+          <p>How to find us</p>
+          <ul>
+            <li>Email: Medcare@gmail.com</li>
+            <li>Phone: +77081930126</li>
+            <li>Address: Mangilik El 45, Astana, Kazakhstan</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+        </div>
+      </div>
+    </div>
+  </section>  
+
+<footer class="footer-section text-light py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Medcare</p>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
